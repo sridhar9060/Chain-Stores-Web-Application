@@ -1,0 +1,90 @@
+.container3 {
+    height: 80vh;
+    background-color: #0b0c10;
+    color: #66FCF1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    font-family: sans-serif;  
+}
+
+.loginbody{
+    height: 370px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color: #0b0c10;
+    border: 1px solid #66FCF1;
+    display: flex;
+    flex-direction: column; 
+    border-radius: 10px; 
+    padding: 20px;
+}
+
+.logintitle{
+    color: black;
+
+}
+
+#loginform{
+    display: flex;
+    flex-direction: column;
+}
+
+#email{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px 10px 0px;
+}
+
+.loginbutton{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    padding: 10px 0px 10px 0px;
+}
+
+#password{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px 10px 0px;
+}
+
+.forgotpass{
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+
+#forgottitle{
+    color: #66FCF1;
+    text-decoration: none;
+}
+
+.logintitle{
+    color: #66FCF1;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .container3{
+        background-color: #0b0c10;
+        color: #66FCF1;
+    }
+
+    .loginbody{
+        background-color: #0b0c10;
+        border: 1px solid #66FCF1;
+    }
+
+    #forgottitle{
+        color: #66FCF1;
+    }
+
+    .logintitle{
+        color: #66FCF1;
+    }
+
+}
